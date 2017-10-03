@@ -4,7 +4,9 @@ Using the `video` and `audio` tag is a fundamental HTML element responsible for 
 
 ## What is a HTML5 Video?
 
-In past, We used plug-in tool such as Flash to play video in website.
+<a href="https://en.wikipedia.org/wiki/HTML5_video">What is a HTML5 Video</a>
+
+In past, We used plug-in tool such as <a href="https://en.wikipedia.org/wiki/Adobe_Flash_Player">Adobe Flash Player</a> to play video in website.
 But Flash is history now,
 Today we use HTML5 <audio> and <video> element to embed a video in a web page.
  
@@ -22,7 +24,6 @@ As in any code, there's a basic structure to build this code. ```<video width="3
 <a href="https://google.com">Google Owns All Your Data</a>
 ```
 
-<a href="https://google.com">Google Owns All Your Data</a>
 
 
 ## Youtube Video
