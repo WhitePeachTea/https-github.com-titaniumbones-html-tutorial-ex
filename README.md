@@ -7,8 +7,7 @@ In past, We used plug-in tool such as Flash to play video in website.
 But Flash is history now,
 Today we use HTML5 <audio> and <video> element to embed a video in a web page.
  
-
-The example is like this code here.
+The code for input a <video> or <audio> is like this code here.
 
 ``` html
 <video width="320" height="240" controls>
