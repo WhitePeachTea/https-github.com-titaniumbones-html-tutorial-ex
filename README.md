@@ -18,11 +18,18 @@ The code for input a <video> or <audio> is like this code here.
 </video> 
 ```
 
-As in any code, there's a basic structure to build this code. ```<video width="320" height="240" controls>``` 
+As in any code, there's a basic structure to build this code. Tags `width="" height=''`  adjust the side of containers of video.
 
 ``` html
-<a href="https://google.com">Google Owns All Your Data</a>
+<video width="320" height="240" controls>
 ```
+
+The tag `autoplay` allows video to play automatically once the website opened
+
+``` html
+<video width="320" height="240" autoplay>
+```
+
 The `source` tag tell the browser to find the video from the link address you provided. 
 
 ``` html
