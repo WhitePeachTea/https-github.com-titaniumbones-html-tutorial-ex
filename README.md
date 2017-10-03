@@ -18,10 +18,20 @@ The code for input a <video> or <audio> is like this code here.
 </video> 
 ```
 
-As in any code, there's a basic structure to build this code. ```<video width="320" height="240" controls>``` The `source` tag tell the browser to find the video from the link address you provided. The `href` attribute identifies a target URL; when this HTML snippet is displayed in a browser, the browser will direct you to the URL in the href attribute. Let's try it out:
+As in any code, there's a basic structure to build this code. ```<video width="320" height="240" controls>``` 
 
 ``` html
 <a href="https://google.com">Google Owns All Your Data</a>
+```
+The `source` tag tell the browser to find the video from the link address you provided. 
+
+``` html
+<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">>
+```
+The `type` identifies the format of the video. 
+
+``` html
+<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
 ```
 
 
