@@ -1,6 +1,10 @@
 # Adding audio and video in HTML
 
-Using the `video` and `audio` tag is a fundamental HTML element responsible for much of the linking goodn ess that makes HTML great!
+ Videos and audios make your website more interesting:)
+
+ This tutorial is to teach you how to use the `video` and `audio` tag.
+ 
+ So you could add more contexts to your website.
 
 ## What is a HTML5 Video?
 
@@ -10,7 +14,7 @@ In past, We used plug-in tool such as <a href="https://en.wikipedia.org/wiki/Ado
 But Flash is history now,
 Today we use HTML5 <audio> and <video> element to embed a video in a web page.
  
-The code for input a <video> or <audio> is like this code here.
+This is a example for code to add a <video> or <audio> in HTML.
 
 ``` html
   <video width="320" height="240" controls>
@@ -18,7 +22,7 @@ The code for input a <video> or <audio> is like this code here.
 </video> 
 ```
 
-As in any code, there's a basic structure to build this code. Tags `width="" height=''`  adjust the side of containers of video.
+As in any codes, there's a basic structure. Tags `width="" height=''`  adjust the side of containers of video.
 
 ``` html
 <video width="320" height="240" controls>
@@ -35,7 +39,7 @@ The `source` tag tell the browser to find the video from the link address you pr
 ``` html
 <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">>
 ```
-The `type` identifies the format of the video. 
+The `type` tag identifies the format of the video. 
 
 ``` html
 <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
